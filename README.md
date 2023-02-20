@@ -24,3 +24,10 @@ Pentru prima etapă a proiectului se vor oferi inițial: lista cu userii deja î
 Se primesc secvențial acțiuni („change page” sau „on page” pentru prima etapă) și se execută pe măsură ce sunt primite, rezultatul lor având efect asupra datelor din platformă la un anumit moment de timp;
 După executarea unor acțiuni (vom detalia ulterior care dintre acțiuni), se afișează rezultatul ei în fișierul JSON de ieșire;
 La terminarea tuturor acțiunilor se termina și execuția programului și se trece la următorul set de teste.
+Structura site-ului POO TV
+În cadrul primei etape, ați avut de implementat structura platformei noastre de streaming video, care a constat în definirea paginilor care pot fi accesate de un utilizator și flow-ul de accesare al acestora.
+
+![image](https://user-images.githubusercontent.com/73692534/220123424-4d1020e2-6490-44d8-8875-d8f6e3b89098.png)
+
+
+Am introdus schema precedentă pentru a avea o imagine și mai clară asupra paginilor existente pe site-ul nostru, modul în care acestea pot fi accesate (în urma acțiunilor de tipul change page) precum și acțiunile care pot fi realizate în cadrul fiecărei pagini. (acțiunile on page).
